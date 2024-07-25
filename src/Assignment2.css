@@ -1,0 +1,124 @@
+.product-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Reduce spacing between sections */
+}
+
+.single-product-page {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Reduce spacing below the product details */
+}
+
+.product-image-display {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-details {
+    flex: 2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 16px;
+    margin-bottom: 10px; /* Reduce spacing */
+}
+
+.cart-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-buttons span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Common styling for all sections */
+.section {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Reduce spacing above the section */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Align content to the left */
+.pro-speci, .review {
+    align-items: flex-start;
+}
+
+/* Ensure consistent padding and margin for content */
+.pro-speci-content, .review-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
