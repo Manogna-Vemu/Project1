@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 
 function Eleven() {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        console.log("Use effect is called effect");
+        console.log("Use effect is called");
     }, [count]);
 
     const updateCount = () => {
@@ -43,9 +43,9 @@ function Eleven() {
 }
 
 export default Eleven;
+*/
 
-
-/*import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Eleven() {
     const [count, setCount] = useState(0); 
@@ -85,4 +85,4 @@ function Eleven() {
     );
 }
 
-export default Eleven;*/
+export default Eleven;
