@@ -37,4 +37,27 @@ return(
 }
 export default App;
       <Route path="/" element={<NavBar/>}/>
-        <Route path="/Assignment3" component={Assignment3} />*/
+        <Route path="/Assignment3" component={Assignment3} />
+
+
+
+        import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Ecommerce from './Ecommerce';
+import Product from './Product'; 
+
+function App() {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/ecommerce" element={<Ecommerce />} />
+                <Route path="/products" element={<Product />} />
+            </Routes>
+        </Router>
+    );
+}
+
+export default App;
+idi app.js*/
