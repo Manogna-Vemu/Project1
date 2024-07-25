@@ -4,7 +4,7 @@ function Eleven() {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        console.log("Use effect is called");
+        console.log("Use effect is called effect");
     }, [count]);
 
     const updateCount = () => {
