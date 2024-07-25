@@ -4,7 +4,7 @@ function Thirteen(){
     const firstRef = useRef(null);  
     const formSubmitted=(event)=>{
         event.preventDefault();
-        console.log("form submitted");
+        console.log("form submitted successfully");
         console.log(firstRef.current.value)
         firstRef.current.value='';
     }
